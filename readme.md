@@ -1,5 +1,5 @@
 ## 基于Tensorflow，OpenCV
-## 使用MNIST数据集训练卷积神经网络，用于手写数字识别
+## 使用MNIST数据集训练卷积神经网络模型，用于手写数字识别
 
 ### [ocr.py](https://github.com/legendjack/-_CNN_MNIST/blob/master/ocr.py)
 一个单层的神经网络，使用MNIST训练，识别准确率较低
