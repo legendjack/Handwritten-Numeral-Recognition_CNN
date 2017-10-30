@@ -24,7 +24,7 @@ keep_prob = tf.get_default_graph().get_tensor_by_name("keep_prob:0")
 ### [cnn_mnist_train.py](https://github.com/legendjack/-_CNN_MNIST/blob/master/cnn_mnist_train.py)
 训练模型的程序
 
-### 模型文件
+### [模型文件](https://github.com/legendjack/Handwritten-Numeral-Recognition_CNN/tree/master/model/cnn_mnist_model)
 - *checkpoint*是一个文本文件，保存了一个目录下所有的模型文件列表，这个文件是tf.train.Saver类自动生成且自动维护的。
 在checkpoint文件中维护了由一个tf.train.Saver类持久化的所有TensorFlow模型文件的文件名。
 当某个保存的TensorFlow模型文件被删除时，这个模型所对应的文件名也会从checkpoint文件中删除。
