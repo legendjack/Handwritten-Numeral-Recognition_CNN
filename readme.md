@@ -8,7 +8,22 @@
 两层的卷积神经网络，使用MNIST训练（模型使用MNIST测试集准确率高于99%），识别准确率较高；
 但是如果写的较为随意的，还是会出现分类错误的情况，可能是图像预处理的问题
 
+### [cnn_ocr_2.py](https://github.com/legendjack/-_CNN_MNIST/blob/master/cnn_ocr_2.py)
+直接从cnn_mnist.ckpt.meta文件中加载已经持久化的图，
+需要在训练的时候为Tensorflow指定名称（[cnn_ocr.py](https://github.com/legendjack/-_CNN_MNIST/blob/master/cnn_ocr.py)line82）: 
+```
+keep_prob = tf.placeholder(tf.float32, name="keep_prob")
+```
+The name 'x_input' refers to an Operation, not a Tensor.
+Tensor names must be of the form "<op_name>:<output_index>".
+[cnn_ocr_2.py](https://github.com/legendjack/-_CNN_MNIST/blob/master/cnn_ocr_2.py)line33
+```
+keep_prob = tf.get_default_graph().get_tensor_by_name("keep_prob:0")
+```
 
+
+### [cnn_mnist_train.py](https://github.com/legendjack/-_CNN_MNIST/blob/master/cnn_mnist_train.py)
+训练模型的程序
 
 ### 模型文件
 - *checkpoint*是一个文本文件，保存了一个目录下所有的模型文件列表，这个文件是tf.train.Saver类自动生成且自动维护的。

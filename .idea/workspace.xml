@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5682a8a7-fdc5-46c3-89b8-a0b1e09120a6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/cnn_mnist_model/cnn_mnist.ckpt.data-00000-of-00001" afterPath="$PROJECT_DIR$/model/cnn_mnist_model/cnn_mnist.ckpt.data-00000-of-00001" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/cnn_mnist_model/cnn_mnist.ckpt.index" afterPath="$PROJECT_DIR$/model/cnn_mnist_model/cnn_mnist.ckpt.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/cnn_mnist_model/cnn_mnist.ckpt.meta" afterPath="$PROJECT_DIR$/model/cnn_mnist_model/cnn_mnist.ckpt.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cnn_ocr.py" afterPath="$PROJECT_DIR$/cnn_ocr.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,25 +33,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cnn_ocr_2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cnn_ocr_2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cnn_ocr_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="83" lean-forward="false" selection-start-line="4" selection-start-column="83" selection-end-line="4" selection-end-column="83" />
+            <state relative-caret-position="171">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="190">
-                <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="380">
+                <caret line="20" column="68" lean-forward="true" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cnn_mnist_train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cnn_mnist_train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="822">
+              <caret line="120" column="60" lean-forward="true" selection-start-line="120" selection-start-column="60" selection-end-line="120" selection-end-column="60" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -255,7 +260,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17265625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -408,17 +412,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cnn_mnist_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1273">
+        <state relative-caret-position="822">
           <caret line="120" column="60" lean-forward="true" selection-start-line="120" selection-start-column="60" selection-end-line="120" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn_ocr_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="190">
-            <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="380">
+            <caret line="20" column="68" lean-forward="true" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
             <folding />
           </first_editor>
           <second_editor />
@@ -427,14 +439,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cnn_ocr_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="83" lean-forward="false" selection-start-line="4" selection-start-column="83" selection-end-line="4" selection-end-column="83" />
-          <folding />
         </state>
       </provider>
     </entry>
