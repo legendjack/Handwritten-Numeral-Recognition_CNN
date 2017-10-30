@@ -50,7 +50,7 @@ def max_pool_2x2(x):
 # 构图 #
 
 # 定义两个placeholder，x和y分别用于表示输入的手写数字图像和标签，（具体数据）在执行图的时候喂进来
-x = tf.placeholder(tf.float32, [None, 784])  # placeholder(dtype, shape=None, name=None)
+x = tf.placeholder(tf.float32, [None, 784], name="x_input")  # placeholder(dtype, shape=None, name=None)
 # y = tf.placeholder(tf.float32, [None, 10])
 
 # 改变x的格式为4D的向量[batch, in_height, in_width, in_channels]，把图片恢复成原来的尺寸28*28
@@ -88,7 +88,7 @@ h_pool2_flat = tf.reshape(h_pool2, [-1, 7 * 7 * 64])
 h_fc1 = tf.nn.relu(tf.matmul(h_pool2_flat, W_fc1) + b_fc1)
 
 # keep_prob用来表示神经元的输出概率
-keep_prob = tf.placeholder(tf.float32)
+keep_prob = tf.placeholder(tf.float32, name="keep_prob")
 h_fc1_drop = tf.nn.dropout(h_fc1, keep_prob)
 
 # 初始化第二个全连接层的权值
@@ -98,7 +98,7 @@ b_fc2 = bias_variable([10])
 # 计算输出
 prediction = tf.nn.softmax(tf.matmul(h_fc1_drop, W_fc2) + b_fc2)
 
-result = tf.argmax(prediction, 1)
+result = tf.argmax(prediction, 1, name="result")
 
 # 初始化变量
 init = tf.global_variables_initializer()
