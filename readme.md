@@ -10,7 +10,7 @@
 
 ### [cnn_ocr_2.py](https://github.com/legendjack/-_CNN_MNIST/blob/master/cnn_ocr_2.py)
 直接从cnn_mnist.ckpt.meta文件中加载已经持久化的图（graph），
-需要在训练的时候为Tensorflow指定名称（[cnn_mnist_train.py](https://github.com/legendjack/-_CNN_MNIST/blob/master/cnn_mnist_train.py) line82）: 
+需要在训练的时候为tensor指定名称（[cnn_mnist_train.py](https://github.com/legendjack/-_CNN_MNIST/blob/master/cnn_mnist_train.py) line82）: 
 ```
 keep_prob = tf.placeholder(tf.float32, name="keep_prob")
 ```
